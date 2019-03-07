@@ -39,6 +39,6 @@ VOLUME /factorio
 
 EXPOSE $PORT/udp $RCON_PORT/tcp
 
-COPY files/ /
+COPY 0.17/files/ /
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
